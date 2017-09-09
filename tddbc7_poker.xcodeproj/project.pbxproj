@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B61F648C1F63ABD4007FB0B8 /* GeneratingCardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F648B1F63ABD4007FB0B8 /* GeneratingCardSpec.swift */; };
+		B61F648E1F63C476007FB0B8 /* TwoCardPokerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F648D1F63C476007FB0B8 /* TwoCardPokerSpec.swift */; };
+		B61F64901F63C69D007FB0B8 /* TwoCardPoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F648F1F63C69D007FB0B8 /* TwoCardPoker.swift */; };
 		B66890041F63995C00AA6918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66890031F63995C00AA6918 /* AppDelegate.swift */; };
 		B66890061F63995C00AA6918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66890051F63995C00AA6918 /* ViewController.swift */; };
 		B66890091F63995C00AA6918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66890071F63995C00AA6918 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		AFCE655545600C73529213AA /* Pods-tddbc7_poker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tddbc7_poker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tddbc7_poker/Pods-tddbc7_poker.debug.xcconfig"; sourceTree = "<group>"; };
 		B0113E92F80FDBD8BF49F9B9 /* Pods_tddbc7_pokerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tddbc7_pokerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61F648B1F63ABD4007FB0B8 /* GeneratingCardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratingCardSpec.swift; sourceTree = "<group>"; };
+		B61F648D1F63C476007FB0B8 /* TwoCardPokerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoCardPokerSpec.swift; sourceTree = "<group>"; };
+		B61F648F1F63C69D007FB0B8 /* TwoCardPoker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoCardPoker.swift; sourceTree = "<group>"; };
 		B66890001F63995C00AA6918 /* tddbc7_poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tddbc7_poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66890031F63995C00AA6918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B66890051F63995C00AA6918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				B668900C1F63995C00AA6918 /* LaunchScreen.storyboard */,
 				B668900F1F63995C00AA6918 /* Info.plist */,
 				B66890251F639DF500AA6918 /* Card.swift */,
+				B61F648F1F63C69D007FB0B8 /* TwoCardPoker.swift */,
 			);
 			path = tddbc7_poker;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				B668901A1F63995C00AA6918 /* Info.plist */,
 				B61F648B1F63ABD4007FB0B8 /* GeneratingCardSpec.swift */,
 				B66890231F639A9800AA6918 /* ComparingCardSpec.swift */,
+				B61F648D1F63C476007FB0B8 /* TwoCardPokerSpec.swift */,
 			);
 			path = tddbc7_pokerTests;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 			files = (
 				B66890061F63995C00AA6918 /* ViewController.swift in Sources */,
 				B66890261F639DF500AA6918 /* Card.swift in Sources */,
+				B61F64901F63C69D007FB0B8 /* TwoCardPoker.swift in Sources */,
 				B66890041F63995C00AA6918 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61F648C1F63ABD4007FB0B8 /* GeneratingCardSpec.swift in Sources */,
+				B61F648E1F63C476007FB0B8 /* TwoCardPokerSpec.swift in Sources */,
 				B66890241F639A9800AA6918 /* ComparingCardSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

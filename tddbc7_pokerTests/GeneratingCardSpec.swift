@@ -22,13 +22,13 @@ class GeneratingCardSpec: QuickSpec {
     override func spec() {
         describe("カードの文字列表記テスト") {
             context("ランクに3, スートに♠を与えた場合") {
-                it("カードの文字列表記を取得する, (ex)3♠") {
+                it("カードの文字列表記3♠をが取得できること") {
                     let card = Card(rank: .r03, suit: .spade)
                     expect(card.notation).to(equal("3♠"))
                 }
             }
             context("ランクに4, スートに♥を与えた場合") {
-                it("カードの文字列表記を取得する, (ex)4♥") {
+                it("カードの文字列表記4♥をが取得できること") {
                     let card = Card(rank: .r04, suit: .heart)
                     expect(card.notation).to(equal("4♥"))
                 }

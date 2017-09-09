@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Card {
+struct Card : Equatable {
     enum Suit : String {
         case spade = "♠"
         case heart = "♥"
@@ -37,6 +37,10 @@ struct Card {
 
     var notation : String {
         return rank.rawValue + suit.rawValue
+    }
+
+    public static func ==(lhs: Card, rhs: Card) -> Bool {
+        return lhs.rank == rhs.rank && lhs.suit == rhs.suit
     }
 }
 
