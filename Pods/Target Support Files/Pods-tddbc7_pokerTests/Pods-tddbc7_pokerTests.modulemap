@@ -1,0 +1,6 @@
+framework module Pods_tddbc7_pokerTests {
+  umbrella header "Pods-tddbc7_pokerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
